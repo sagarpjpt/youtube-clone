@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+img {
+  cursor: pointer;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+/* YouTube-like Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* no visible track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* grey scroll thumb */
+  border-radius: 10px;     /* rounded edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* darker on hover */
+}
+
+/* Optional: hide scrollbar on mobile for cleaner look */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+

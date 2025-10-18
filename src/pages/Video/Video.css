@@ -1,0 +1,17 @@
+.play-container {
+    background: #f9f9f9;
+    padding: 20px 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:900px) {
+    .play-container {
+        overflow-x: hidden;
+        width: 100%;
+        height: 100vh;
+        padding-left: 3%;
+        padding-right: 5%;
+    }
+}

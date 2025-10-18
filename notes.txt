@@ -1,0 +1,39 @@
+1--> npm create vite@latest
+    write project name . so that this current folder becomes our main root repo
+
+2--> npm i reat-router-dom
+
+3--> App.jsx mein navbar and routes to pages
+
+4--> generate youtube data api key
+    1.search youtube data api key
+    2.overview>google dev console
+    3.create project>
+    4.click on enable apis and services
+    5. search for youtube data api v3>click on enable
+    6. click on create credentials>public data>click next
+    7. copy the api key>click done
+    8. check refernces page for fetching data from https://developers.google.com/youtube/v3/docs
+
+8--> in Feed component fetch data as per video category 
+
+NOTE ALWAYS MAKE FRONTEND WITH DUMMY DATA AND THEN FETCH DATA FROM API
+
+9--> add a value converter to convert whole view counts in K and M in utils/formatNumber.js
+
+10--> to format date fetched from api use moment package in Feed component
+
+npm i moment
+
+11--> using category id & video id will display video in Video.jsx page and also related video 
+
+12--> copy the embedded code from yt and paste in PlayVideo component and comment our <video></video> tag
+
+13-->fetch video details by video id in PlayVideo component
+
+14--> no of subs and channel logo will use 
+api under channels>list>list(by channel id) inside PlayVideo.jsx
+
+15--> fetch comment data from commentThreads>list>list by videoId
+
+16--> search for related video url api under vdieos> list > list(most popular videos)
